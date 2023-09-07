@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import random
 
+# __call__(), data parameter shape: list of (H, V, C)
 
 class Compose:
     def __init__(self, augmentations):
